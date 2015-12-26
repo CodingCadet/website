@@ -1,0 +1,32 @@
+body {
+    background-color:#ecf0f1;
+}
+h1 {
+    color:#1abc9c;
+    font-size: 50px
+}
+.navbar-tabs {
+    list-style-type: none;
+}
+.navbar-item {
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+.emnavbar {
+    background-color:#1abc9c;
+}
+.navbar-item > a {
+    color: #ecf0f1
+}
+h2 {
+    color:#2ecc71;
+    font-size: 30px;
+}
+.menu-img{
+    width: 90%;
+}
+
+h5 {
+    color:#000000;
+}

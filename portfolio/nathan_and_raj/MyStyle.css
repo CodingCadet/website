@@ -1,0 +1,37 @@
+.navbar-tabs {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-item{
+	display: inline;
+	padding:5px;
+}
+
+#raj {
+    width: 80%;
+}
+
+.raj-navbar{ 
+    background-color: #2ecc71; 
+    border-radius: 10px;
+    letter-spacing:3px; 
+    font-size:30px;
+      margin: 0px 100px;
+}
+
+.navbar-item > a { 
+    color:white; 
+}
+img { 
+    margin:10px;
+    padding:5px; 
+    height:200px;
+    width:300px;
+    border:1px solid #404040; 
+} 
+body{ 
+    background-color:#95B9C7;
+}
+    
+

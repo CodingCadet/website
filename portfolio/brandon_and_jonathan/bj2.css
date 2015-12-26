@@ -1,0 +1,38 @@
+body {
+    background-image: url("http://i.imgur.com/A2tqibY.jpg");
+    background-size: 100%;
+    background-color: #cccccc;
+    color: Black;
+}
+.square {
+  width: 150px;
+  height: 150px;
+  background-image: url("http://i.imgur.com/A2tqibY.jpg");
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
+}
+.navbar-item{
+    color: White;
+    font-size: 30px;
+    font-family: "roboto";
+    display: inline;
+}
+span{
+    color: #580000;
+    font-size: 18px;
+    font-family: "roboto";
+}
+.navbar-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+title{
+    font-family: Impact;
+}
+font{
+    Color: Black;
+}
+}

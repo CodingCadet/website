@@ -1,0 +1,20 @@
+.navbar-item {
+	display: inline;
+	padding: 10px;
+	font-size: 18px;
+}
+body {
+    background-color:#ecf0f1;
+}
+.cb-div {
+    background-color:#9b59b6
+    ;
+}
+.navbar-item > a {
+    color: white
+}
+img{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}

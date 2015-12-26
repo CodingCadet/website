@@ -1,0 +1,10 @@
+.navbar-tabs{list-style-type:none;margin:0;padding:0;}
+.navbar-item{display:inline;}
+.le-navbar{background-color:#f1c40f;border-radius:5px;word-spacing:10px;font-size:20px;text-transform:uppercase;padding:7px;}
+.navbar-item>a{color:brown}
+.navbar-item>a:hover{color:#f1c40f;}
+body {background-color:#ffe1b9;}
+h1 {color:brown;font-size:40px;}
+p {color:#f1c40f;font-size:18px;font-family: "Times New Roman",cursive, sans-serif;}
+a:hover{background:#111111;color:#ffffff;}
+

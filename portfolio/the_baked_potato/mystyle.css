@@ -1,0 +1,32 @@
+body {
+    background-color: #1abc9c;
+}
+img {
+    margin: 20px;
+    padding: 5px;
+    height: 200px;
+    width: 270px;
+    border: 1px solid 6666FF;
+}
+.navbar-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-item {
+	display: inline;
+	background-color: #f1c40f;
+    border-radius:5px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    padding: 0.15px;
+}
+.h1 {
+ color: #ecf0f1; 
+ font-size: 40px;
+ font-family: Sans Serif;
+}
+.potato-navbar {
+    display: inline;
+    background-color: blue;
+}
