@@ -1,0 +1,14 @@
+.home-img {
+	width: 80%;
+}
+.divided {
+	width: 90%;
+}
+.schedule {
+	list-style-type:none;
+	padding: 0px;
+}
+.schedule > li{
+	padding: 5px 0px;
+	font-size: 17px;
+}
