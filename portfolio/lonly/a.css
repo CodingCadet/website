@@ -1,0 +1,33 @@
+body{
+    background-color:#bdc3c7;
+}
+.navbar-tabs{
+    background-color:#2ecc71;
+    margin: 0px;
+    padding: 5px;
+    border-radius:5px;
+    font-size:15px;
+}
+.navbar-tabs{
+    list-style-type:none;
+    margin:10;
+    padding:1;
+}
+.navbar-item{
+    display:inline;
+}
+.navbar-item > a {
+    color: white;
+}
+.navbar-item {
+display:inline;
+letter-spacing: 1px;
+padding: 0px;
+text-transform: uppercase;
+}
+p{
+    font-size: 20px
+}
+div{
+    background-color:#f1c40f;
+}

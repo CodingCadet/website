@@ -1,0 +1,38 @@
+.navbar-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-item {
+	display: inline;
+}
+.navbar-tabs a{
+    background-color:#ff0066;
+    color:#ffffff;
+}
+.introduction {
+    background-color:#bbf48a;
+}
+.headings {
+    color:#2c3e50;
+}
+.text {
+    color:#8e44ad;
+}
+.a {
+    font-size:20px;
+}
+.b {
+    font-size:30px;
+}
+.a:visited {
+    color: #66ffff;
+}
+.a:hover {
+    color: #000000;
+}
+.home-img{
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}

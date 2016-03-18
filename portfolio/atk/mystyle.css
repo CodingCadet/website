@@ -1,0 +1,45 @@
+ body {background-color:white;
+ }
+ h1{color:#ff3399;
+ font-size:40px;
+ font-family:"Comic Sans MS";
+ }
+ h4{color:#8c1aff;
+ font-size:30px;
+ font-family:"Comic Sans MS";
+ }
+ div{
+ background-color:#3498db;
+ font-family:"Comic Sans MS";
+ }
+ .navbar-item{
+     display:inline;
+ }
+ .navbar-item {
+	display: inline;
+	padding: 10px;
+	font-size: 18px;
+ }
+ .navbar-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+ }
+ img{
+ margin:20px;
+ padding:50px;
+ height:200px;
+ width:300px;
+ border:1px solid #404040;
+ }
+ p{color:#000000;
+ font-size: 30px;
+ font-family:"Comic Sans MS";
+ }
+.title{
+ color:white;
+ }
+.cc-navbar {
+ background-color:#1abc9c;
+ }
+

@@ -1,0 +1,10 @@
+.navbar-tabs {
+    list-style-type: none;
+}
+.navbar-item {
+    display: inline;
+    color:white;
+}
+.navbar {
+    background-color:#d35400;
+}
