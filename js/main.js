@@ -1,8 +1,5 @@
 ;(function () {
-	
 	'use strict';
-
-
 
 	// iPad and iPod detection	
 	var isiPad = function(){
@@ -22,27 +19,6 @@
 	};
 
 
-
-	// Burger Menu
-	var burgerMenu = function() {
-/*
-		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
-
-			event.preventDefault();
-
-			if ( $('#navbar').is(':visible') ) {
-				$(this).removeClass('active');
-			} else {
-				$(this).addClass('active');	
-			}
-
-			
-			
-		});*/
-
-	};
-
-
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
@@ -56,44 +32,6 @@
 			return false;
 		});
 	
-	};
-
-
-	// Page Nav
-	var clickMenu = function() {
-/*
-		$('#navbar a:not([class="external"])').click(function(event){
-			var section = $(this).data('nav-section'),
-				navbar = $('#navbar');
-
-				if ( $('[data-section="' + section + '"]').length ) {
-			    	$('html, body').animate({
-			        	scrollTop: $('[data-section="' + section + '"]').offset().top
-			    	}, 500);
-			   }
-
-		    if ( navbar.is(':visible')) {
-		    	navbar.removeClass('in');
-		    	navbar.attr('aria-expanded', 'false');
-		    	$('.js-fh5co-nav-toggle').removeClass('active');
-		    }
-
-		    event.preventDefault();
-		    return false;
-		});
-
-*/
-	};
-
-	// Reflect scrolling in navigation
-	var navActive = function(section) {
-/*
-		var $el = $('#navbar > ul');
-		$el.find('li').removeClass('active');
-		$el.each(function(){
-			$(this).find('a[data-nav-section="'+section+'"]').closest('li').addClass('active');
-		});
-*/
 	};
 
 	var navigationSection = function() {
@@ -129,16 +67,16 @@
 
 		$(window).scroll(function(event){
 
-		   	var header = $('#fh5co-header'),
+		   	var header = $('#cc-header'),
 				scrlTop = $(this).scrollTop();
 
 			if ( scrlTop > 500 && scrlTop <= 2000 ) {
-				header.addClass('navbar-fixed-top fh5co-animated slideInDown');
+				header.addClass('navbar-fixed-top cc-animated slideInDown');
 			} else if ( scrlTop <= 500) {
 				if ( header.hasClass('navbar-fixed-top') ) {
-					header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
+					header.addClass('navbar-fixed-top cc-animated slideOutUp');
 					setTimeout(function(){
-						header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
+						header.removeClass('navbar-fixed-top cc-animated slideInDown slideOutUp');
 					}, 100 );
 				}
 			} 
@@ -152,15 +90,15 @@
 	// Home
 
 	var homeAnimate = function() {
-		if ( $('#fh5co-home').length > 0 ) {	
+		if ( $('#cc-home').length > 0 ) {	
 
-			$('#fh5co-home').waypoint( function( direction ) {
+			$('#cc-home').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						$('#fh5co-home .to-animate').each(function( k ) {
+						$('#cc-home .to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -181,15 +119,15 @@
 
 
 	var introAnimate = function() {
-		if ( $('#fh5co-intro').length > 0 ) {	
+		if ( $('#cc-intro').length > 0 ) {	
 
-			$('#fh5co-intro').waypoint( function( direction ) {
+			$('#cc-intro').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						$('#fh5co-intro .to-animate').each(function( k ) {
+						$('#cc-intro .to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -209,15 +147,15 @@
 	};
 
 	var workAnimate = function() {
-		if ( $('#fh5co-work').length > 0 ) {	
+		if ( $('#cc-work').length > 0 ) {	
 
-			$('#fh5co-work').waypoint( function( direction ) {
+			$('#cc-work').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						$('#fh5co-work .to-animate').each(function( k ) {
+						$('#cc-work .to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -235,10 +173,52 @@
 
 		}
 	};
+	var missionAnimate = function() {
+		var mission = $('#cc-mission');
+		if ( mission.length > 0 ) {	
+
+			mission.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+					var sec = mission.find('.to-animate').length,
+						sec = parseInt((sec * 200) + 400);
+
+					setTimeout(function() {
+						mission.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					setTimeout(function() {
+						mission.find('.to-animate-2').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('bounceIn animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, sec);
+
+
+					
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
 
 
 	var testimonialAnimate = function() {
-		var testimonial = $('#fh5co-testimonials');
+		var testimonial = $('#cc-testimonials');
 		if ( testimonial.length > 0 ) {	
 
 			testimonial.waypoint( function( direction ) {
@@ -279,51 +259,8 @@
 		}
 	};
 
-	var servicesAnimate = function() {
-		var services = $('#fh5co-services');
-		if ( services.length > 0 ) {	
-
-			services.waypoint( function( direction ) {
-										
-				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-
-					var sec = services.find('.to-animate').length,
-						sec = parseInt((sec * 200) + 400);
-
-					setTimeout(function() {
-						services.find('.to-animate').each(function( k ) {
-							var el = $(this);
-							
-							setTimeout ( function () {
-								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
-							
-						});
-					}, 200);
-
-					setTimeout(function() {
-						services.find('.to-animate-2').each(function( k ) {
-							var el = $(this);
-							
-							setTimeout ( function () {
-								el.addClass('bounceIn animated');
-							},  k * 200, 'easeInOutExpo' );
-							
-						});
-					}, sec);
-
-
-					
-					$(this.element).addClass('animated');
-						
-				}
-			} , { offset: '80%' } );
-
-		}
-	};
-
 	var aboutAnimate = function() {
-		var about = $('#fh5co-about');
+		var about = $('#cc-about');
 		if ( about.length > 0 ) {	
 
 			about.waypoint( function( direction ) {
@@ -353,7 +290,7 @@
 	};
 
 	var countersAnimate = function() {
-		var counters = $('#fh5co-counters');
+		var counters = $('#cc-counters');
 		if ( counters.length > 0 ) {	
 
 			counters.waypoint( function( direction ) {
@@ -393,10 +330,6 @@
 						});
 					}, sec);
 
-					
-
-					
-
 					$(this.element).addClass('animated');
 						
 				}
@@ -407,7 +340,7 @@
 
 
 	var contactAnimate = function() {
-		var contact = $('#fh5co-contact');
+		var contact = $('#cc-contact');
 		if ( contact.length > 0 ) {	
 
 			contact.waypoint( function( direction ) {
@@ -433,40 +366,19 @@
 		}
 	};
 
-
-	
-	
-
-
-	
-	
-
 	// Document on load.
 	$(function(){
-
 		parallax();
-
-		burgerMenu();
-
-		clickMenu();
-
-		navigationSection();
-
 		goToTop();
-
 
 		// Animations
 		homeAnimate();
 		introAnimate();
 		workAnimate();
+		missionAnimate();
 		testimonialAnimate();
-		servicesAnimate();
 		aboutAnimate();
 		countersAnimate();
 		contactAnimate();
-		
-
 	});
-
-
 }());

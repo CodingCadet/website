@@ -1,0 +1,31 @@
+body{
+    background-color:white;
+}
+div{
+    background-color:white;
+}
+.navbar-item{
+    display: inline;
+}
+hr{
+    color:black;
+    width:1000px;
+}
+.menu-caty{
+    display:inline;
+}
+.bread-item{
+    display:inline;
+}
+.cake-item{
+    display:inline;
+}
+.pizza-item{
+    display:inline;
+}
+.pie-item{
+    display:inline;
+}
+h1{
+    font-size:50 px;color:#0000ff;
+}
