@@ -9,13 +9,16 @@
 
 			var header = $('#cc-header'),
 			headerImage = $('.cc-logo'),
+			headerWhiteImage = $('.cc-logo-white'),
 			scrlTop = $(this).scrollTop();
 
 			if ( scrlTop > 500 && scrlTop <= 2000 ) {
-				headerImage.attr('src', 'images/logo.png');
+				headerImage.show(0);
+				headerWhiteImage.hide(0);
 				header.addClass('navbar-fixed-top cc-animated slideInDown');
 			} else if ( scrlTop <= 500) {
-				headerImage.attr('src', 'images/logo-white.png');
+				headerImage.hide(0);
+				headerWhiteImage.show(0);
 				if ( header.hasClass('navbar-fixed-top') ) {
 					header.addClass('navbar-fixed-top cc-animated slideOutUp');
 					setTimeout(function(){
