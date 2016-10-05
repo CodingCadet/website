@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -558,6 +558,9 @@ h1, h2, h3, h4, h5, h6 {
 #cc-intro .cc-block:hover .btn:hover, #cc-intro .cc-block:focus .btn:hover {
   background: #52d3aa !important;
   border: 2px solid #52d3aa !important;
+}
+.cc-logo {
+  height: 30px;
 }
 
 .watch-video {
