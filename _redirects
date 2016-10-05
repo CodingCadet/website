@@ -1,0 +1,6 @@
+# Simple redirects from one path to another
+/index.html              /
+/about.html              /about
+/contact.html            /contact
+/portfolio.html          /portfolio
+/tech.html               /tech
