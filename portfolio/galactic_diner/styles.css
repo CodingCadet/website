@@ -1,0 +1,27 @@
+body {
+    background-color:red;
+}  
+
+h1{
+    color:green;
+    font-size:40px;
+}
+
+p{
+    
+    color:blue;
+    font-size:32px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+img{
+    margin:10px;
+    padding:4px;
+    width:400px;
+    border:1px solid #404040;
+}
+
+table, th, td{
+    border:1px solid blue;
+}

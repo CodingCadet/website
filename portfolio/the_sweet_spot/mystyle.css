@@ -1,0 +1,82 @@
+body {
+    background-color:#ffffff;
+}
+.my-navbar {
+    background-color:#b27f87;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.navbar-tabs{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-item{
+    display: inline;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.navbar-item > a {
+    color:#ffffff;
+}
+.menu{
+    color:#b27f87;
+    font-size:50px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.contact{
+    color:#b27f87;
+    font-size:40px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.instagram{
+    float:left;
+    margin: 0 0 10px 10px;
+    height:400px;
+    width:400px;
+}
+.h2, h3, h4{
+    font-size:45px;
+    font-family:'Shadows Into Light Two', cursive;
+    color:#BDBDBD;
+}
+.email{
+    float:right;
+    margin: 0 0 10px 10px;
+    height:400px;
+    width:400px;
+}
+.about contact{
+    font-size:40px;
+    font-family:'Fredericka the Great',cursive;
+    text-align:left;
+}
+
+.about{
+    color:#b27f87;
+    font-size:40px;
+    font-family:'Fredericka the Great', cursive;    
+}
+.giftcard{
+    color:#b27f87;
+    font-size:40px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.p{
+    text-align: left;
+    float:left;
+    
+}
+.about us{
+    font-size:45px;
+    font-family:'Fredericka the Great', cursive;
+    color:#BDBDBD;
+}
+
+.coupon{
+    color:#b27f87;
+    font-size:25px;
+    font-family:'Fredericka the Great', cursive;
+    height:400px;
+    width:400px;
+ }

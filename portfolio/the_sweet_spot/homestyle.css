@@ -1,0 +1,19 @@
+body{
+    background-image: url("http://law-kp.com/pastryartdemo/wp-content/uploads/2015/09/pastry-banner-final.jpg");
+    background-color: #cccccc;
+}
+h1 {
+    color:#b27f87;
+    font-size:100px;
+    font-family: 'Fredericka the Great', cursive;
+}
+h2 {
+    color:#BDBDBD;
+    font-size:50px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+h3 {
+    color:#BDBDBD;    
+    font-size:30px;
+    font-family: 'Shadows Into Light Two', cursive; 
+}

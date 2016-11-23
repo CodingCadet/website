@@ -1,0 +1,97 @@
+ody {
+      background-color: red;
+}
+h1 {
+    color: black;
+    font-family: 'Lobster Two', cursive;
+}
+p{
+    color:black;
+    font-family: 'Lobster Two', cursive;
+}
+h3 {
+    color:black;
+    font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+    color:black;
+    font-family: 'Lobster Two', cursive;
+}
+img{
+ margin: 10px;
+ padding: 5px;
+ height:200px;
+ width: 300px;
+ border: 1px solid #2980b9;
+}
+
+div {
+     background-color:#2980b;
+}
+ .pink-paragraph{
+     color:green;
+ }
+ 
+  a:hover { 
+      color:white;
+        
+    
+  } 
+    a:visited {
+        color: blue;
+    
+    }
+    
+       h1:hover{
+             font-size: 500px; 
+       }
+       .inline-heading {
+           display: inline;
+}
+.navbar-tabs {
+    list-style-type: none;
+    
+    margin: 0;
+    
+    padding: 0;
+    
+}
+
+
+.navbar-item{
+    display:inline;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+ 
+.my-navbar{
+    background-color:black;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+.navbar-item > a {
+     color: black;
+     font-family: 'Lobster Two', cursive;
+}
+
+body{
+background-image: url("https://thumbs.dreamstime.com/z/bakery-background-seamless-pattern-various-pastries-33878690.jpg")
+}    
+   
+  h4 {
+    color:black;
+    font-family: 'Lobster Two', cursive;  
+  } 
+  
+  h5{ 
+      color:black;
+    font-family: 'Lobster Two', cursive;
+  }
+
+h6 {
+    color:black;
+    font-family: 'Lobster Two', cursive;
+}    

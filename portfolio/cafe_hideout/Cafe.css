@@ -1,0 +1,10 @@
+.navbar-item
+{
+    display: inline;
+}
+body { 
+    background:#ede6ce url("smiley.gif") no-repeat fixed center; 
+}
+img{
+    width: 600px;
+}

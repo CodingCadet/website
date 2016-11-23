@@ -1,0 +1,28 @@
+.navbar-item{ 
+    display: inline;
+} 
+h1 { 
+    color: #996633; 
+    font-size: 70px; 
+}
+.Pasta-Spaghetti{ 
+    width: 60px;
+} 
+.Italian-Bread{ 
+    width: 50px;
+} 
+h3 { 
+    color: #66ffff;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 5px; 
+    padding-right: 5px; 
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+body { 
+    background-color: #123456; 
+} 
+a:hover{ 
+    color: #66ffff; 
+} 
