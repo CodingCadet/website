@@ -7,7 +7,7 @@ function init() {
 
 
     var mapOptions = {
-        zoom: 10,
+        zoom: 11,
         // The latitude and longitude to center the map (always required)
         center: latlng,
         // How you would like to style the map. 
@@ -26,6 +26,7 @@ function init() {
     var latlng = new google.maps.LatLng(33.8262151, -118.0409185);
     var latlng1 = new google.maps.LatLng(33.8460883, -118.0106335);
     var latlng2 = new google.maps.LatLng(33.8485886, -118.0390302);
+    var latlng3 = new google.maps.LatLng(33.867046, -118.064735)
 
     new google.maps.Marker({
         position: latlng,
@@ -39,6 +40,11 @@ function init() {
     });
     new google.maps.Marker({
         position: latlng2,
+        map: map,
+        icon: 'images/loc.png'
+    });
+    new google.maps.Marker({
+        position: latlng3,
         map: map,
         icon: 'images/loc.png'
     });
